@@ -5,7 +5,7 @@ public class Slide47 {
         int a; int tong = 0;
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Nhap so nguyen: ");
+        System.out.print("Nhap so nguyen: " );
         a = sc.nextInt();
         do {
             tong = tong + a;
