@@ -5,7 +5,7 @@ public class Slide40 {
         int ngay;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nhap so ngay trong tuan (so ngay tu 0 - 7): ");
+        System.out.println("Nhap so ngay trong tuan (so ngay tu 0-7): ");
         ngay = sc.nextInt();
         switch(ngay){
             case 0:
