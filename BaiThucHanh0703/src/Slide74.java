@@ -4,7 +4,7 @@ public class Slide74 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n , i, tong = 0;
+        int n, i, tong = 0;
         do{
             System.out.print("Nhap vao kich thuoc cua mang: ");
             n = sc.nextInt();
