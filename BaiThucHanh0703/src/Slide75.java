@@ -21,7 +21,7 @@ public class Slide75 {
             for(j=0; j < m; j++){
                 System.out.printf("Nhap vao phan tu A[%d][%d]= ", i, j);
                 arrA[i][j] = sc.nextInt();
-                if(arrA[i][j] % 2 ==0){
+                if(arrA[i][j] % 2 == 0){
                     tong += arrA[i][j];
                 }
             }
