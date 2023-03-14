@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Bai8",
+            "request": "launch",
+            "mainClass": "Bai8",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Bai1",
+            "request": "launch",
+            "mainClass": "Bai1",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Bai2",
+            "request": "launch",
+            "mainClass": "Bai2",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Bai3",
+            "request": "launch",
+            "mainClass": "Bai3",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Bai4",
+            "request": "launch",
+            "mainClass": "Bai4",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Bai5",
+            "request": "launch",
+            "mainClass": "Bai5",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Bai6",
+            "request": "launch",
+            "mainClass": "Bai6",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        }
+    ]
+}
