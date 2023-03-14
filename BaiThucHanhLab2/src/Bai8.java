@@ -10,7 +10,7 @@ public class Bai8 {
         System.out.print("Nhap vao kich thuoc cua day so: ");
         n = sc.nextInt();
 
-        int arrA[] = new int [n];
+        int arrA[] = new int [n];   
 
         for(i = 0; i < n; i++){
             System.out.printf("Nhap vao gia tri thu %d: ", i+1);
@@ -22,6 +22,5 @@ public class Bai8 {
         dayso = dayso.substring(0, dayso.length()-3);
         trungbinh = (float)tong / n;
         System.out.printf("Trung binh cong cua %d so nguyen da nhap la: (%s)/%d = %.2f", n, dayso,n, trungbinh);
-        sc.close();
     }
 }
