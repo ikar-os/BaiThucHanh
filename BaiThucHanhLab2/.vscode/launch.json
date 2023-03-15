@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bai12",
+            "request": "launch",
+            "mainClass": "Bai12",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
+            "name": "Bai11",
+            "request": "launch",
+            "mainClass": "Bai11",
+            "projectName": "BaiThucHanhLab2_70f3740c"
+        },
+        {
+            "type": "java",
             "name": "Bai10",
             "request": "launch",
             "mainClass": "Bai10",
