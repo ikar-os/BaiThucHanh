@@ -10,27 +10,26 @@ public class Bai11 {
         }while(n <= 0);
 
         int arrA[] = new int [n];
-        int arrBd[] = new int [n];
         for(i = 0; i< n; i++){
             System.out.printf("Nhap vao gia tri thu %d: ", i+1);
             arrA[i] = sc.nextInt();
-            arrBd[i] = arrA[i];
-        }
-        int b = arrA[0];
-        for(i = 0; i < n-1; i++){
-            for(j= 0; j < n; j++){
-                if( arrA[i] < arrA[j]){
-                    b = arrA[i];
-                    arrA[i] = arrA[j];
-                    arrA[j] = b; 
-                }
-            }
         }
         System.out.print("Mang ban dau la: " );
         for (i = 0; i < n; i++) {
-            System.out.print(arrBd[i] +" ");
+            System.out.print(arrA[i] +" ");
         }
-        System.out.print("\n" );
+
+        int temp = arrA[0];
+        for(i = 0; i < n-1; i++){
+            for(j= i + 1; j < n; j++){
+                if( arrA[i] > arrA[j]){
+                    temp = arrA[i];
+                    arrA[i] = arrA[j];
+                    arrA[j] = temp; 
+                }
+            }
+        }
+        System.out.println();
         System.out.print("Mang da sap xep la: ");
         for (i = 0; i < n; i++) {
             System.out.print(arrA[i] +" ");
