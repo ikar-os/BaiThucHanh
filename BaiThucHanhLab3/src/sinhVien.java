@@ -9,7 +9,7 @@ public class sinhVien {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap ho ten sinh vien: "); hoten = sc.nextLine();
         System.out.print("Nhap nam sinh: "); namsinh = sc.nextInt();
-        System.out.print("Nhap gioi tinh: "); gioitinh = sc.next();
+        System.out.print("Nhap gioi tinh: "); sc.nextLine();gioitinh = sc.nextLine();
     sc.close();
     }
 
