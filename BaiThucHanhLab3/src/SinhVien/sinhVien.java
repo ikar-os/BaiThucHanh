@@ -1,3 +1,4 @@
+package SinhVien;
 import java.util.Scanner;
 
 public class sinhVien {

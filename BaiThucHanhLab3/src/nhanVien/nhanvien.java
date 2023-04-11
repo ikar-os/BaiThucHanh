@@ -1,11 +1,12 @@
+package nhanVien;
 import java.util.Scanner;
 
 public class nhanvien {
-    Scanner sc = new Scanner(System.in);
-    int maNhanVien, tuoi;
-    String hotennv;
-    float heSoLuong, tongLuong;
-    final float luongCoBan = 1490000;
+    public Scanner sc = new Scanner(System.in);
+    public int maNhanVien, tuoi;
+    public String hotennv;
+    public float heSoLuong, tongLuong;
+    public final float luongCoBan = 1490000;
 
     public void nhapThongTin() {
         System.out.print("Nhap ma nhan vien: "); maNhanVien = sc.nextInt();
