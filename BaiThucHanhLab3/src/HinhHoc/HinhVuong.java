@@ -3,13 +3,13 @@ package HinhHoc;
 import java.util.Scanner;
 
 public class HinhVuong extends HinhChuNhat {
-    public HinhVuong() {
-        ten = "Hinh vuong";
+    public HinhVuong(){
+        super.setTen("Hinh Vuong");
     }
 
-    public void nhapCanh(){
-        System.out.println("Canh = ");
-        Scanner sc = new Scanner(System.in);
-        dai = rong = sc.nextFloat();
+    public void NhapCanh(Scanner sc) {
+        System.out.print("Nhap canh: ");
+        super.setDai(sc.nextFloat());
+        super.setRong(super.getDai()); 
     }
 }

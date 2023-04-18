@@ -1,23 +1,28 @@
 package HinhHoc;
 import java.util.Scanner;
 
-public class hinhTru extends hinhTron {
-    Scanner sc = new Scanner(System.in);
-    public float chieucao;
-    public hinhTru() {
-        ten = "Hinh tru";
-    }
+public class HinhTru extends HinhTron {
+    private float chieucao;
     
-    public void nhapChieuCao() {
-        nhapBanKinh();
-        System.out.print("Nhap chieu cao: "); 
-        Scanner sc = new Scanner(System.in);
-        chieucao = sc.nextFloat();
+    public float getChieuCao() {
+        return chieucao;
+    }
+
+    public void setChieuCao(float chieucao) {
+        this.chieucao = chieucao;
+    }
+
+    public HinhTru(){
+        super.setTen("Hinh Tru");
+    }
+
+    public void NhapChieuCao(Scanner sc) {
+        System.out.print("Nhap chieu cao: ");
+        setChieuCao(sc.nextFloat());
     }
 
     public void tinhTheTich() {
-        tinhDienTich();
-        theTich = dienTich * chieucao; 
+        float theTich = super.getPi() * (float) Math.pow(super.getBanKinh(), 2) * chieucao;
+        super.setTheTich(theTich);
     }
-
 }

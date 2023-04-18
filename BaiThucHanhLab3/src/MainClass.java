@@ -1,39 +1,45 @@
+import java.util.Scanner;
+
 import HinhHoc.HinhChuNhat;
-import HinhHoc.hinhTru;
+import HinhHoc.HinhTru;
 import HinhHoc.HinhVuong;
-import HinhHoc.hinhTron;
-import HinhHoc.hinhTru;
+import HinhHoc.HinhTron;
+
 
 public class MainClass {
     public static void main(String[] args) {
-        hinhTron hinhTron = new hinhTron();
-        hinhTron.xuatTen();
-        hinhTron.nhapBanKinh();
-        hinhTron.tinhChuvi();
-        hinhTron.tinhDienTich();
-        hinhTron.inChuVi();
-        hinhTron.inDientich();
+        Scanner sc = new Scanner(System.in);
+        HinhTron ht = new HinhTron();
+        ht.XuatTen();
+        ht.NhapBanKinh(sc);
+        ht.tinhChuvi();
+        ht.tinhDienTich();
+        ht.InChuVi();
+        ht.InDienTich();
 
-        hinhTru hinhTru = new hinhTru();
-        hinhTru.xuatTen();
-        hinhTru.nhapChieuCao();
-        hinhTru.tinhTheTich();
-        hinhTru.inTheTich();
+        HinhTru hTru = new HinhTru();
+        hTru.XuatTen();
+        hTru.NhapBanKinh(sc);
+        hTru.NhapChieuCao(sc);
+        hTru.tinhTheTich();
+        hTru.InTheTich();;
 
-        HinhChuNhat hinhChuNhat = new HinhChuNhat();
-        hinhChuNhat.xuatTen();
-        hinhChuNhat.nhapChieuDai();
-        hinhChuNhat.nhapChieuRong();
-        hinhChuNhat.tinhChuvi();
-        hinhChuNhat.tinhDienTich();
-        hinhChuNhat.inChuVi();
-        hinhChuNhat.inDientich();
+        HinhChuNhat hcn = new HinhChuNhat();
+        hcn.XuatTen();
+        hcn.NhapChieuDai(sc);
+        hcn.NhapChieuRong(sc);
+        hcn.TinhChuVi();
+        hcn.tinhDienTich();
+        hcn.InChuVi();
+        hcn.InDienTich();
 
-        HinhVuong hinhVuong = new HinhVuong();
-        hinhVuong.xuatTen();
-        hinhVuong.nhapCanh();
-        hinhVuong.tinhChuvi();
-        hinhVuong.tinhDienTich();
-        hinhVuong.inDientich();
+        HinhVuong hv = new HinhVuong();
+        hv.XuatTen();
+        hv.NhapCanh(sc);
+        hv.TinhChuVi();
+        hv.tinhDienTich();
+        hv.InChuVi();
+        hv.InDienTich();
+
     }
 }
