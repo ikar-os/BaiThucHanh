@@ -1,3 +1,4 @@
+package Silder;
 import java.util.ArrayList;
 
 public class Slider16 {

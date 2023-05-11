@@ -1,7 +1,8 @@
+package Silder;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class arrangeArrList {
+public class Slider22 {
     public static void main(String[] args) {
         ArrayList<Integer> arrlist = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
@@ -21,21 +22,12 @@ public class arrangeArrList {
             System.out.print(integer + "\t");
         }
 
-        System.out.println("");
-        arrlist.sort((o1, o2) -> o1 - o2);
-        System.out.print("Sap xep tang dan: ");
-        for (Integer integer : arrlist) {
-            System.out.print(integer + "\t");
+        int max = arrlist.get(0);
+        for (int i = 0; i < arrlist.size(); i++) {
+            if (arrlist.get(i).compareTo(max) > 0) {
+                max = arrlist.get(i);
+            }
         }
-
-        System.out.println("");
-        arrlist.sort((o1, o2) -> o2 - o1);
-        System.out.print("Sap xep giam dan: ");
-        for (Integer integer : arrlist) {
-            System.out.print(integer + "\t");
-        }
-        
-        System.out.println("");
-        System.out.print("Phan tu lon nhat cua mang la: " + arrlist.get(0));
+        System.out.println("Phan tu lon nhat trong mang la : " + max);
     }
 }
